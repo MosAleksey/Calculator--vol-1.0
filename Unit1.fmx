@@ -1,0 +1,247 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 289
+  ClientWidth = 248
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 28
+    Text = '0'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 27
+    Text = ','
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 26
+    Text = '1'
+    OnClick = Button1Click
+  end
+  object Button4: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 24
+    Text = '2'
+    OnClick = Button1Click
+  end
+  object Button5: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 23
+    Text = '3'
+    OnClick = Button1Click
+  end
+  object Button6: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 22
+    Text = '4'
+    OnClick = Button1Click
+  end
+  object Button7: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 20
+    Text = '5'
+    OnClick = Button1Click
+  end
+  object Button8: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = '6'
+    OnClick = Button1Click
+  end
+  object Button9: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = '7'
+    OnClick = Button1Click
+  end
+  object Button10: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = '8'
+    OnClick = Button1Click
+  end
+  object Button11: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    Text = '9'
+    OnClick = Button1Click
+  end
+  object Button12: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    Text = '='
+    OnClick = Button12Click
+  end
+  object Button13: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    Text = 'X'
+    OnClick = Button16Click
+  end
+  object Button14: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = '-'
+    OnClick = Button16Click
+  end
+  object Button15: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = '/'
+    OnClick = Button16Click
+  end
+  object Button16: TButton
+    Position.X = 200.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = '+'
+    OnClick = Button16Click
+  end
+  object Button17: TButton
+    Position.X = 200.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = '1/x'
+    OnClick = Button17Click
+  end
+  object Button18: TButton
+    Position.X = 200.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = '%'
+  end
+  object Button19: TButton
+    Position.X = 200.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'SQR'
+    OnClick = Button19Click
+  end
+  object Button20: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = '+/-'
+  end
+  object Button21: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'C'
+    OnClick = Button21Click
+  end
+  object Button22: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'CE'
+    OnClick = Button22Click
+  end
+  object Button23: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = '+-'
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 21
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
